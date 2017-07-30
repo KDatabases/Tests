@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>Super</artifactId>
+        <groupId>com.sxtanna.database</groupId>
+        <version>2.0</version>
+        <relativePath>../Super/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>Tests</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>Framework for creating database tests</description>
+    <url>https://github.com/KDatabases/Keury</url>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.sxtanna.database</groupId>
+            <artifactId>Core</artifactId>
+            <version>1.3</version>
+        </dependency>
+        <!--JUnit Dependencies-->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${versionJUnitJupiter}</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
